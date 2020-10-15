@@ -14,8 +14,11 @@ class Card:
 
 
 class Player:
-    def __init__(self, name):
-        self.name = name 
+    # add a hand for each player; will be the same as hand for game
+    def __init__(self, name, playerHand):
+        self.name = name
+        self.playerHand = playerHand
+
 
 
 class Deck:
